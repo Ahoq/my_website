@@ -1,0 +1,315 @@
+/* Add a black background color to the top navigation */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: #000;
+    width: 100%;
+    height: auto;
+    background: -webkit-linear-gradient(top, #eaf9d4 30%,#c0e589 50%,#c6e29c 70%, #a9ce71 100%);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#header {
+
+    background-image: url(/static/website/gif2.gif);
+    
+    font-family: 'Shift', sans-serif;
+    background-position: center;
+    background-size: cover;
+    height: 15vh;
+    margin-top: 0;
+    z-index: 4;
+}
+#header h2 {    
+    font-size: 3em;
+    position: relative;
+    top: 0.8em;
+    left: 0em;
+    display: inline;
+    margin-top: 0;
+    color: #fff;
+    float: right;
+
+}
+#header p {
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top: 4em;
+    left: 13em;
+    color: #fff;
+    float: right;
+}    
+
+
+
+
+.img-responsive{display:block;height:150;max-width:100%}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #50991d;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 2;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 2em; /* Add a top margin to avoid content overlay */
+}
+
+#carousel {
+  width:50%;
+  margin: 0 auto;
+  z-index: 1;
+  border-radius: 55px 55px 55px 55px;
+  overflow: hidden;
+  border: solid green 2px;
+}
+
+
+
+.header {
+    width: auto;
+    height: 5em;
+    padding: .5em 2em;
+    line-height: 2em;
+    background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
+    color: #933;
+    overflow: hidden;
+    z-index: 3;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1em;
+}
+
+.header a:link, .header a:visited {
+    color: #eddfb6;
+}
+
+.header a:focus , .header a:hover {
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0em 0em 1em 0em;
+    padding-bottom: .6em;
+    padding-top: .4em;
+    padding-right: 2em;
+    padding-left: 2em;
+    text-align: center;
+    font-size: 2.3em;
+    color: #257742;
+}
+
+
+h2 {
+    font-size: 2em;
+    margin: 0.5em 1em .6em 0em;
+    color: #933;
+}
+
+h2.centered {
+    margin: 1.2em 2em .6em 2em;
+}
+
+h2.subhead {
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.6em;
+    margin: .6em 1.0em .8em 0em;
+    color: #857;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;                     /* vertical alignment */
+     /* precise centering; see link below */
+}
+
+h5 {
+    font-size: 1.0em;
+    margin: .8em 1.6em .6em 0em;
+    color: #958f9b;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 1em;
+    color: #933;
+    font-weight: bold;
+
+}
+
+ 
+
+#user-tools {
+    float: right;
+    padding-top: 1.0em;
+    padding-right:1em;
+    margin: 0 0 0 1em;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration:none !important;
+    font-weight: bold;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 1000px;
+}
+.header a.logo{
+  float: left;
+  padding-top: 1.0em;
+  padding-left:1em;
+  margin: 0 0 0 1em;
+  font-weight: 300;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration:none !important;
+  font-weight: bold;
+}
+.row{
+
+  justify-content:space-between;
+
+}
+.thumbnail{
+  background-color: #2f8735;
+}
+.thumbnail h3{
+  color: #eddfb6;
+  text-align: center;
+  padding-top: .5em;
+}
+
+#background-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: url(https://media.giphy.com/media/11UhXwm8Ipd9C/giphy.gif);
+}
+
+#content {
+    padding: 1.2em;
+    min-height: 100vh;
+    transition: all 0.3s;
+    font-size: 174%;
+    width: 100%
+}
+
+#main-content {
+    width: 530px;
+    float: left;
+    
+}
+#blank{
+  float: left;
+}
+#news {
+    float: right;
+    width: 180px;
+
+    position: relative;
+}
+
+#boxoffice {
+    width: 30em;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+    border: solid green 2px;
+    float: left;
+    background: #f9f1d9;
+}
+#edu{
+    width: 20em;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+    border: solid green 2px;
+    float: right;
+    margin-left: 5em;
+    background: #f9f1d9;
+}
+#honors{
+    width: 20em;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+    border: solid green 2px;
+    float: right;
+    margin-left: 5em;
+    background: #f9f1d9;
+}
+
+.message{
+  background: #f2ecda;
+  border-radius: .5em;
+  border: solid green 1px;
+}
+.subject{
+  background: #f2ecda;
+  border: solid green 1px;
+}
+.email{
+  background: #f2ecda;
+  border: solid green 1px;
+}
+
+button[type=submit]{
+    background:#f2ecda;
+    color: #f2ecda;
+    font-weight: bold;
+    border:0 none;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;
+    border: solid green 1px;
+
+}
+
