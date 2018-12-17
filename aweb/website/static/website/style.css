@@ -42,7 +42,7 @@ body {
     font-weight: bold;
     position: relative;
     top: 4em;
-    left: 12em;
+    left: 15em;
     color: #fff;
     float: right;
 }    
@@ -258,10 +258,10 @@ h6 {
 }
 
 #boxoffice {
-    width: 28em;
+    width: 26em;
     height: auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
@@ -270,7 +270,7 @@ h6 {
     width: 20em;
     height: auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     border: solid green 2px;
     float: right;
     margin-left: 5em;
@@ -280,7 +280,7 @@ h6 {
     width: 20em;
     height: auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     border: solid green 2px;
     float: right;
     margin-left: 5em;
