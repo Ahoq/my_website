@@ -214,7 +214,8 @@ h6 {
 }
 .row{
 
-  justify-content:center;
+  justify-content:space-between;
+  align-items: center;
 
 }
 .thumbnail{
