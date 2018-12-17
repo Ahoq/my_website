@@ -326,7 +326,7 @@ button[type=submit]{
 
 img { max-width: 100%; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1500px) {
 
 #header h2 {    
     font-size: 2em;
