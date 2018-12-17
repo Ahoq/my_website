@@ -495,7 +495,7 @@ h6 {
 }
 
 
-@media screen and (min-width: 510px) and (max-width: 700px) {
+@media only screen and (min-device-width: 510px) and (max-device-width: 600px) {
 
 html,body{
     width: 100%;
