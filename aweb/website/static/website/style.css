@@ -353,11 +353,11 @@ img { max-width: 100%; }
     border-radius: 5px;
     padding: 10px;
     border: solid green 2px;
-    float: none;
+    float: left;
     background: #f9f1d9;
 }
 #edu{
-    width: 20em;
+    width: 15em;
     height: auto;
     border-radius: 5px;
     padding: 10px;
@@ -367,7 +367,7 @@ img { max-width: 100%; }
     background: #f9f1d9;
 }
 #honors{
-    width: 20em;
+    width: 15em;
     height: auto;
     border-radius: 5px;
     padding: 10px;
@@ -394,7 +394,7 @@ img { max-width: 100%; }
     
 .header {
     width: auto;
-    height: 4em;
+    height: 3.5em;
     
     line-height: 1.5em;
     background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
