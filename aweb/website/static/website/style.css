@@ -38,11 +38,11 @@ body {
 
 }
 #header p {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     position: relative;
-    top: 4em;
-    left: 10em;
+    top: 2em;
+    left: 7em;
     color: #fff;
     float: right;
 }    
@@ -179,7 +179,7 @@ h6 {
 #user-tools {
     float: right;
     padding-top: 1.0em;
-    padding-right:1em;
+    padding-right:3em;
     margin: 0 0 0 1em;
     font-weight: 300;
     font-size: 1.2em;
@@ -258,10 +258,10 @@ h6 {
 }
 
 #boxoffice {
-    width: 26em;
+    width: 25em;
     height: auto;
     border-radius: 5px;
-    padding: 15px;
+    padding: 8px;
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
