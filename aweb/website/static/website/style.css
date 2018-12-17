@@ -335,6 +335,18 @@ html,body{
     padding: 0px;
     overflow-x: hidden;
 }
+    
+    
+#header {
+
+    background-image: url(/static/website/gif2.gif);
+    
+    font-family: 'Shift', sans-serif;
+    background-position: center;
+    background-size: cover;
+    height: 12vh;
+    margin-top: 0;
+}
 
 #header h2 {    
     font-size: 2em;
@@ -350,7 +362,7 @@ html,body{
     font-size: 1em;
     font-weight: bold;
     position: relative;
-    top: 3em;
+    top: 2.5em;
     color: #fff;
     float: none;
 }    
