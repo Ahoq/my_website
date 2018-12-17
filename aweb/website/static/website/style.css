@@ -335,7 +335,7 @@ img { max-width: 100%; }
     display: inline;
     margin-top: 0;
     color: #fff;
-    float: none;
+    float: center;
 
 }
 #header p {
@@ -362,7 +362,7 @@ img { max-width: 100%; }
     border-radius: 5px;
     padding: 10px;
     border: solid green 2px;
-    float: none;
+    float: left;
     
     background: #f9f1d9;
 }
@@ -372,7 +372,7 @@ img { max-width: 100%; }
     border-radius: 5px;
     padding: 10px;
     border: solid green 2px;
-    float: none;
+    float: left;
   
     background: #f9f1d9;
 }
@@ -394,7 +394,7 @@ img { max-width: 100%; }
     
 .header {
     width: auto;
-    height: 3em;
+    height: 4em;
     
     line-height: 1.5em;
     background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
@@ -407,6 +407,7 @@ img { max-width: 100%; }
 
 .header a:link, .header a:visited {
     color: #eddfb6;
+    font-size:0.7em;
 }
 
 .header a:focus , .header a:hover {
