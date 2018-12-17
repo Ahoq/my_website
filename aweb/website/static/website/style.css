@@ -27,7 +27,7 @@ body {
     z-index: 4;
 }
 #header h2 {    
-    font-size: 2em;
+    font-size: 3em;
     position: relative;
     top: 0.8em;
     left: 0em;
@@ -38,7 +38,7 @@ body {
 
 }
 #header p {
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
     position: relative;
     top: 4em;
