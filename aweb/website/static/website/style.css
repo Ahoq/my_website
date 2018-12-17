@@ -24,7 +24,7 @@ body {
     background-size: cover;
     height: 15vh;
     margin-top: 0;
-    
+    z-index: 4;
 }
 #header h2 {    
     font-size: 2em;
@@ -41,8 +41,8 @@ body {
     font-size: 1em;
     font-weight: bold;
     position: relative;
-    top: 3.5em;
-    left: 9.5em;
+    top: 4em;
+    left: 13em;
     color: #fff;
     float: right;
 }    
@@ -185,7 +185,7 @@ h6 {
     font-size: 1.2em;
     letter-spacing: .1em;
     text-transform: uppercase;
-    text-align: left;
+    text-align: right;
     text-decoration:none !important;
     font-weight: bold;
 }
@@ -258,10 +258,10 @@ h6 {
 }
 
 #boxoffice {
-    width: 28em;
+    width: 30em;
     height: auto;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 5px;
+    padding: 20px;
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
@@ -270,7 +270,7 @@ h6 {
     width: 20em;
     height: auto;
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
     border: solid green 2px;
     float: right;
     margin-left: 5em;
@@ -280,7 +280,7 @@ h6 {
     width: 20em;
     height: auto;
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
     border: solid green 2px;
     float: right;
     margin-left: 5em;
@@ -311,6 +311,7 @@ button[type=submit]{
     border: solid green 1px;
 
 }
+
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
@@ -324,4 +325,18 @@ button[type=submit]{
 
 
 img { max-width: 100%; }
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
 
