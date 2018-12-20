@@ -36,7 +36,7 @@ body {
 .item {
     color: #666;
     background: #333;
-    height: 600px;
+    height: 400px;
     line-height: 50px;
     /* Align the text vertically center. */
     font-size: 2em;
@@ -397,6 +397,7 @@ h6 {
     float: left;
     background: #f9f1d9;
     margin-left: 4.0em;
+    margin-bottom: 2em;
 }
 #edu{
     width: 22em;
