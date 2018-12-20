@@ -47,7 +47,7 @@ body {
 
 }
 .carousel {
-    margin-top: 2em;
+    margin-top: 18em;
     margin-right: 2em;
     margin-left: 2em;
     margin-bottom: 0em;
@@ -152,6 +152,12 @@ body {
     background-size: cover;
     height: 15vh;
     margin-top: 0;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    z-index: 10;
     
 }
 #header h2 {    
@@ -198,8 +204,13 @@ body {
 
 
 .header {
-    width: auto;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
     height: 5em;
+    top: 11em;
     padding: .5em 2em;
     line-height: 2em;
     background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
@@ -294,7 +305,7 @@ h6 {
 .sticky {
   position: fixed;
   top: 0;
-  width: 125em;
+  width: 100%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
