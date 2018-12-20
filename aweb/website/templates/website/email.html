@@ -72,20 +72,22 @@
 
 <br>
 
-<form method="post" align="center">
-			    {% csrf_token %}
-	    
-	            <br> <h6>Name:</h6>&nbsp; {{ form.from_email }}<br>
+    <form method="post" align="center">
+                {% csrf_token %}
+        
+                <br> <h6>Name:</h6>&nbsp; {{ form.from_email }}<br>
                
 
                 <br><h6>Subject:</h6>&nbsp;{{ form.subject }}&nbsp;<br>
                 
                 <br><h6>Message:</h6>&nbsp;
                 {{ form.message }}<br><br>
-	    <div class="form-actions">
-	      <button type="submit"><h6>Send</h6></button><br><br>
-	    </div>
-	</form>
+        <div class="form-actions">
+          <button type="submit"><h6>Send</h6></button><br><br>
+        </div>
+    </form>
+
+
 
 
 

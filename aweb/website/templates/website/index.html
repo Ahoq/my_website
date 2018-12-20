@@ -87,72 +87,73 @@ function myFunction() {
 }
 </script>
 
-  <div class="main">
+
+
+     
       
     
-    <div id="content">
 
-            
-      <div class="carousel slide" data-ride="carousel" id="carousel">
-        <!-- Indicators -->
-         <ol class="carousel-indicators">
-          <li class="active" data-slide-to="0" data-target="#carousel">
-          </li>
-          <li data-slide-to="1" data-target="#carousel">
-          </li>
-          <li data-slide-to="2" data-target="#carousel">
-          </li>
-         </ol>
-         <!-- Wrapper for slides -->
-         <div class="carousel-inner" role="listbox">
-          <div class="item active">
-           <a href="https://oncampus.sjcny.edu/sjc-brooklyn-students-take-unique-educational-journeys/?utm_source=campus-landing-page&utm_medium=news-room&utm_campaign=SJC%20Brooklyn%20Students%20Take%20Unique%20Educational%20Journeys&_ga=2.183121574.1235356098.1544925605-1709852666.1468198029" target="_blank">
-           <img alt="..." class="carItem" onclick="window.location.href='/static/website/am.JPG" src="/static/website/am.JPG"/>
-           <div class="carousel-caption d-none d-md-block">
-              <h4>Deep Learning</h4>
-              <p>Tsinghua University Summer Program</p>
-           </div>
-           </a>
-          </div>
-          <div class="item">
-          <a href="">
-           <img alt="..." class="carItem" onclick="window.location.href='/static/website/honors.JPG" src="/static/website/honors.JPG"/>
-           <div class="carousel-caption d-none d-md-block">
-              <h4>Honors Convocation</h4>
-              <p>Awarded for Being in the Top 10%</p>
-           </div>
-          </div>
-          <div class="item">
-          <a href="http://salimarfaoui.com/SJCSquared/index.html" target="_blank">
-           <img alt="..." class="carItem" onclick="window.location.href='/static/website/google.jpg" src="/static/website/google.jpg"/>
-           <div class="carousel-caption d-none d-md-block">
-              <h4>SJC<sup>2</sup></h4>
-              <p>St. Joseph's College Computer Club</p>
-           </div>
-          </a>
-          </div>
-         </div>
-         <!-- Controls -->
-         <a class="left carousel-control" data-slide="prev" href="#carousel" role="button">
-          <span aria-hidden="true" class="glyphicon glyphicon-chevron-left">
-          </span>
-          <span class="sr-only">
-           Previous
-          </span>
-         </a>
-         <a class="right carousel-control" data-slide="next" href="#carousel" role="button">
-          <span aria-hidden="true" class="glyphicon glyphicon-chevron-right">
-          </span>
-          <span class="sr-only">
-           Next
-          </span>
-         </a>
-      </div>
+            <div id="myCarousel" class="carousel slide">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="active item">
+                      <a href="https://oncampus.sjcny.edu/sjc-brooklyn-students-take-unique-educational-journeys/?utm_source=campus-landing-page&utm_medium=news-room&utm_campaign=SJC%20Brooklyn%20Students%20Take%20Unique%20Educational%20Journeys&_ga=2.183121574.1235356098.1544925605-1709852666.1468198029" target="_blank">
+                       <img alt="..." class="carItem" onclick="window.location.href='/static/website/am3.JPG" src="/static/website/am4.JPG"/>
+                       <div class="carousel-caption d-none d-md-block">
+                          <u>
+                            <h4>Deep Learning</h4>
+                            <p>Tsinghua University Summer Program</p>
+                          </u>
+                       </div>
+                       </a>
+                    </div>
+
+                    <div class="item">
+                     <img alt="..." class="carItem" onclick="window.location.href='/static/website/honors.JPG" src="/static/website/honors.JPG"/>
+                     <div class="carousel-caption d-none d-md-block">
+                        <h4>Honors Convocation</h4>
+                        <p>Awarded for Being in the Top 10%</p>
+                     </div>
+                    </div>
+                    <div class="item">
+                      <a href="http://salimarfaoui.com/SJCSquared/index.html" target="_blank">
+                       <img alt="..." class="carItem" onclick="window.location.href='/static/website/google's.jpg" src="/static/website/google's.jpg"/>
+                       <div class="carousel-caption d-none d-md-block">
+                          <u>
+                            <h4>SJC<sup>2</sup></h4>
+                            <p>St. Joseph's College Computer Club</p>
+                          </u>
+                       </div>
+                      </a>
+                    </div>
+                </div>
+                <!-- Carousel nav --> <a class="carousel-control left-flat" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+ <a class="carousel-control right-flat" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+            </div>
+ 
+   
+
+
+<script language="JavaScript" type="text/javascript">
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 5000
+    })
+  });    
+</script>
       <br> <br>
       <div id = "career-interests">
           <center><h2>Career Interests</h2></center>
           <br>
           <div class="row">
+
           <div class="col-md-3">
             <div class="thumbnail">
               <img src="/static/website/mlrn.jpeg" style="width: 100%; height: auto;" >
@@ -160,13 +161,22 @@ function myFunction() {
             </div>
             
           </div>
+
           <div class="col-md-3">
             <div class="thumbnail">
               <img src="/static/website/web.jpeg" style="width: 100%; height: auto;" >
                <h3 >Web Development</h3>
-            </div>
-            
           </div>
+          
+          </div>
+
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="/static/website/soft.jpeg" style="width: 100%; height: auto;" >
+               <h3>Software Engineering</h3>
+            </div>
+          </div>
+
           <div class="col-md-3">
             <div class="thumbnail">
               <img src="/static/website/data.jpeg" style="width: 100%; height: auto;" >
@@ -174,20 +184,17 @@ function myFunction() {
             </div>
             
           </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <img src="/static/website/soft.jpeg" style="width: 100%; height: auto;" >
-               <h3>Software Engineering</h3>
-            </div>
+
             
-          </div>
+          
         </div>
 
       </div>
       <br><br>
       <div id="boxoffice">
-        <h2>Experience</h2>
+        
         <ul class="flex-container">
+          <h2>Experience</h2>
           <div class="article">
           <a href="https://github.com/Ahoq/Data_Visualization" target="_blank">
           <h3>NYC Department of Health and Mental Hygiene – Software & Data Consultant</h3>
@@ -251,8 +258,11 @@ function myFunction() {
             
             
             <h3> St. Joseph's College NY</h3> 
-               <h5><p>Math & Computer Science (Double Major)<br>
-               GPA: 4.0</p>
+               <h5><p>Expected date of graduation: May, 2019.<br><br>
+                Mathematics and Math & Computer Science (Double Major)<br><br>
+                Bachelors of Science in Math & Computer Science<br><br>
+                Bachelors of Arts in Mathematics<br><br>
+                GPA: 4.0</p>
                </h5>
             
             
@@ -268,17 +278,36 @@ function myFunction() {
         <ul class="flex-container">
           <h2>Honors</h2>
           <div class="news-article">
-                  <h3>
+                  <h3>National & College</h3>
                     <p>
-                      • Full Tuition Presidential Scholarship<br>
-                      • Aces Scholarship<br>
-                      • Dean’s List <br>
-                      • Honors Student  <br>     
-                      • Kappa Mu Epsilon<br>
-                      • Delta Epsilon Sigma(Top 10%)<br>
-                      • Sigma Iota Chi
+                      <h5>Full Tuition Presidential Scholarship<br><br>
+                      Aces Scholarship<br><br>
+                      Dean’s List <br><br>
+                      Honors Student  <br><br>     
+                      Kappa Mu Epsilon<br><br>
+                      Delta Epsilon Sigma (Top 10%)<br><br>
+                      Sigma Iota Chi
+                      </h5>
                     </p>
-                  </h3>
+                  
+          </div>
+        </ul>
+      </div>
+
+      <div id="leadership">
+
+        <ul class="flex-container">
+          <h2>Leadership</h2>
+          <div class="article">
+                  <h3>Tsinghua University - Deep Learning Summer Research Program</h3>
+                  <a href="http://ss.cs.tsinghua.edu.cn/content.html" target="_blank">
+                  <img src="/static/website/am3.JPG" alt="Null" style="width: 50%; height: auto; float: left;margin-right: 10px; margin-bottom: 5px; border: solid green 1px; padding: 2px;"/>
+                  </a>
+                    <p>
+                      I recently got accepted to a three week Deep Learning summer program at the highly reputable Tsinghua University in Beijing, China. Tsinghua University is one of the top universities in the world. According to the U.S. News ranking, it is the number one university for Computer Science and Engineering. The program has a mere 6% acceptance rate. Each year the program selects only 25 students out of the hundreds who apply from different parts of the world.
+                      The program had a rigorous schedule each day that featured multiple lectures by renowned professors of the machine/deep learning and artificial intelligence field, deep learning labs, and group research projects. I effectively honed my deep learning skills by actively participating in each aspect of the program.
+                    </p>
+                  
           </div>
         </ul>
       </div>
@@ -287,7 +316,6 @@ function myFunction() {
 
       
    
-    </div>
-  </div>
+
  </body>
 </html>
