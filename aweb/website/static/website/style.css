@@ -396,7 +396,7 @@ h6 {
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
-    margin-left: 4.0em;
+    margin-left: 3em;
     margin-bottom: 2em;
 }
 #edu{
@@ -406,7 +406,7 @@ h6 {
     padding: 10px;
     border: solid green 2px;
     float: left;
-    margin-left: 2em;
+    margin-left: 3em;
     background: #f9f1d9;
     margin-bottom: 2em;
 }
@@ -417,9 +417,10 @@ h6 {
     padding: 10px;
     border: solid green 2px;
     float: left;
-    margin-left: 2em;
+    margin-left: 3em;
     background: #f9f1d9;
     margin-bottom: 2em;
+
 }
 
 #leadership {
@@ -430,8 +431,9 @@ h6 {
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
-    margin-left: 2em;
+    margin-left: 3em;
     margin-bottom: 2em;
+
 }
 
 .message{
