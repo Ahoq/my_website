@@ -651,7 +651,7 @@ h6 {
 
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1500px){
     @import url('https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css');
 
 .item {
@@ -760,7 +760,7 @@ h6 {
   padding-top: 1000px;
 }
 #boxoffice {
-    width: 35em;
+    width: 60em;
     height: auto;
     border-radius: 5px;
     padding: 15px;
@@ -771,7 +771,7 @@ h6 {
     margin-bottom: 2em;
 }
 #edu{
-    width: 22em;
+    width: 40em;
     height: auto;
     border-radius: 5px;
     padding: 10px;
@@ -782,7 +782,7 @@ h6 {
     margin-bottom: 2em;
 }
 #honors{
-    width: 22em;
+    width: 40em;
     height: auto;
     border-radius: 5px;
     padding: 10px;
@@ -795,7 +795,7 @@ h6 {
 }
 
 #leadership {
-    width: 35em;
+    width: 60em;
     height: auto;
     border-radius: 5px;
     padding: 15px;
