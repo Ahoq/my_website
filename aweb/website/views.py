@@ -38,6 +38,7 @@ def about(request):
 ##f1f7c8: body
 ##50991d: header, thumbnail
 ##eddfb6: header a link
+#body-background: -webkit-linear-gradient(top, #eaf9d4 30%,#c0e589 50%,#c6e29c 70%, #a9ce71 100%);
 
 
 
