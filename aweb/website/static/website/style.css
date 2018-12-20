@@ -408,6 +408,7 @@ h6 {
     float: left;
     margin-left: 2em;
     background: #f9f1d9;
+    margin-bottom: 2em;
 }
 #honors{
     width: 22em;
@@ -418,6 +419,7 @@ h6 {
     float: left;
     margin-left: 2em;
     background: #f9f1d9;
+    margin-bottom: 2em;
 }
 
 #leadership {
@@ -429,6 +431,7 @@ h6 {
     float: left;
     background: #f9f1d9;
     margin-left: 2em;
+    margin-bottom: 2em;
 }
 
 .message{
@@ -511,35 +514,6 @@ html,body{
     float: none;
 }    
 
-#boxoffice {
-    width: 20em;
-    height: auto;
-    border-radius: 5px;
-    padding: 10px;
-    border: solid green 2px;
-    float: left;
-    background: #f9f1d9;
-}
-#edu{
-    width: 15em;
-    height: auto;
-    border-radius: 5px;
-    padding: 10px;
-    border: solid green 2px;
-    float: left;
-    
-    background: #f9f1d9;
-}
-#honors{
-    width: 15em;
-    height: auto;
-    border-radius: 5px;
-    padding: 10px;
-    border: solid green 2px;
-    float: left;
-  
-    background: #f9f1d9;
-}
 
  
 #user-tools {
