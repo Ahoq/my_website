@@ -398,6 +398,7 @@ h6 {
     background: #f9f1d9;
     margin-left: 3em;
     margin-bottom: 2em;
+    margin-right: 1em;
 }
 #edu{
     width: 22em;
@@ -406,7 +407,7 @@ h6 {
     padding: 10px;
     border: solid green 2px;
     float: left;
-    margin-left: 3em;
+    margin-left: 2em;
     background: #f9f1d9;
     margin-bottom: 2em;
 }
@@ -433,6 +434,7 @@ h6 {
     background: #f9f1d9;
     margin-left: 3em;
     margin-bottom: 2em;
+    margin-right: 1em;
 
 }
 
