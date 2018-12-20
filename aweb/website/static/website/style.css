@@ -218,7 +218,7 @@ body {
     overflow: hidden;
     z-index: 12;
     font-family: 'Poppins', sans-serif;
-    border-radius: 1em;
+    border-radius: 0em;
 }
 
 .header a:link, .header a:visited {
