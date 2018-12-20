@@ -36,8 +36,8 @@ body {
 .item {
     color: #666;
     background: #333;
-    height: 400px;
-    line-height: 50px;
+    height: 27em;
+    line-height: 10px;
     /* Align the text vertically center. */
     font-size: 1.5em;
     text-align: center;
