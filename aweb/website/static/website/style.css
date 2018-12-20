@@ -398,7 +398,6 @@ h6 {
     background: #f9f1d9;
     margin-left: 3em;
     margin-bottom: 2em;
-    margin-right: 1em;
 }
 #edu{
     width: 22em;
@@ -407,7 +406,7 @@ h6 {
     padding: 10px;
     border: solid green 2px;
     float: left;
-    margin-left: 2em;
+    margin-left: 3em;
     background: #f9f1d9;
     margin-bottom: 2em;
 }
@@ -434,7 +433,6 @@ h6 {
     background: #f9f1d9;
     margin-left: 3em;
     margin-bottom: 2em;
-    margin-right: 1em;
 
 }
 
@@ -623,6 +621,32 @@ h6 {
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 1000px;
+}
+
+#boxoffice {
+    width: 33em;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    border: solid green 2px;
+    float: left;
+    background: #f9f1d9;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+
+#leadership {
+    width: 33em;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    border: solid green 2px;
+    float: left;
+    background: #f9f1d9;
+    margin-left: 3em;
+    margin-bottom: 2em;
+
 }
 
 }
