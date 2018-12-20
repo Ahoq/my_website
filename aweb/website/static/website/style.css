@@ -3,7 +3,7 @@
 
 
 body {
-    margin: 0;
+    margin-top: 0px;
     padding: 0;
     font-size: 100%;
     color: #000;
@@ -14,6 +14,134 @@ body {
     font-family: 'Poppins', sans-serif;
     
 }
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("/static/website/am1.JPG");
+
+  /* Control the height of the image */
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+@import url('https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css');
+
+.item {
+    color: #666;
+    background: #333;
+    height: 600px;
+    line-height: 50px;
+    /* Align the text vertically center. */
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+ 
+}
+.carousel {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.carousel-control {
+    top: 50%;
+
+    /* border 3px, size 40px */
+    border: 3px solid #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+
+    width: 50px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+.bs-example {
+    margin: 20px;
+}
+/* cancel background image gradient */
+ .carousel-control.left-flat {
+    right: auto;
+    left: 15px;
+}
+/* override background image gradient */
+ .carousel-control.right-flat {
+    right: 15px;
+    left: auto;
+}
+
+/*
+.carousel {
+    padding-top: 0px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    
+}
+/* Since positioning the image, we need to help out the caption */
+/*.carousel-caption {
+  z-index: 10;
+}*/
+
+/* Declare heights because of positioning of img element */
+/*.carousel .item {
+  height: 50vh;
+  background-color:#bbb;
+  object-fit: contain;
+  
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+
+}*/
+
+
+/*.carousel-container-selector {
+    height: 20px;
+
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display:flex;
+}*/
+
+/*.carousel,
+.item,
+.active {
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.slide-images-selector {
+     width: 100%;
+     object-fit: contain; // or cover, check out the difference
+}*/
+
 
 #header {
 
@@ -84,14 +212,14 @@ body {
   margin-top: 2em; /* Add a top margin to avoid content overlay */
 }
 
-#carousel {
+/*#carousel {
   width:50%;
   margin: 0 auto;
   z-index: 1;
   border-radius: 55px 55px 55px 55px;
   overflow: hidden;
   border: solid green 2px;
-}
+}*/
 
 
 
@@ -103,7 +231,7 @@ body {
     background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
     color: #933;
     overflow: hidden;
-    z-index: 3;
+    z-index: 12;
     font-family: 'Poppins', sans-serif;
     border-radius: 1em;
 }
@@ -127,13 +255,13 @@ h1 {
     padding-right: 2em;
     padding-left: 2em;
     text-align: center;
-    font-size: 2.3em;
+    font-size: 2.5em;
     color: #257742;
 }
 
 
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     margin: 0.5em 1em .6em 0em;
     color: #933;
 }
@@ -147,28 +275,28 @@ h2.subhead {
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin: .6em 1.0em .8em 0em;
     color: #857;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #fff;
     font-weight: bold;                     /* vertical alignment */
      /* precise centering; see link below */
 }
 
 h5 {
-    font-size: 1.0em;
+    font-size: 1.2em;
     margin: .8em 1.6em .6em 0em;
     color: #958f9b;
     font-weight: bold;
 }
 
 h6 {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #933;
     font-weight: bold;
 
@@ -215,6 +343,8 @@ h6 {
 .row{
 
   justify-content: space-between;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
   
 
 }
@@ -259,33 +389,45 @@ h6 {
 }
 
 #boxoffice {
-    width: 30em;
+    width: 35em;
     height: auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
+    margin-left: 4.0em;
 }
 #edu{
-    width: 20em;
+    width: 22em;
     height: auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     border: solid green 2px;
-    float: right;
-    margin-left: 5em;
+    float: left;
+    margin-left: 2em;
     background: #f9f1d9;
 }
 #honors{
-    width: 20em;
+    width: 22em;
     height: auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     border: solid green 2px;
-    float: right;
-    margin-left: 5em;
+    float: left;
+    margin-left: 2em;
     background: #f9f1d9;
+}
+
+#leadership {
+    width: 35em;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    border: solid green 2px;
+    float: left;
+    background: #f9f1d9;
+    margin-left: 2em;
 }
 
 .message{
