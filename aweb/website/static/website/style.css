@@ -769,6 +769,7 @@ h6 {
     background: #f9f1d9;
     margin-left: 3em;
     margin-bottom: 2em;
+    font-size: 120%;
 }
 #edu{
     width: 35em;
@@ -780,9 +781,10 @@ h6 {
     margin-left: 3em;
     background: #f9f1d9;
     margin-bottom: 2em;
+    font-size: 120%;
 }
 #honors{
-    width: 35em;
+    width: 33em;
     height: auto;
     border-radius: 5px;
     padding: 10px;
@@ -791,6 +793,7 @@ h6 {
     margin-left: 3em;
     background: #f9f1d9;
     margin-bottom: 2em;
+    font-size: 120%;
 
 }
 
@@ -804,6 +807,7 @@ h6 {
     background: #f9f1d9;
     margin-left: 3em;
     margin-bottom: 2em;
+    font-size: 120%;
 
 }
 
