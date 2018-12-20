@@ -1,6 +1,12 @@
 
 
-
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 body {
     margin-top: 0px;
@@ -690,6 +696,13 @@ h6 {
 @media screen and (min-width: 1500px){
     @import url('https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css');
 
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 .item {
     color: #666;
     background: #333;
