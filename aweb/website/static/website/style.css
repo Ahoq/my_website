@@ -477,7 +477,7 @@ body {
 .item {
     color: #666;
     background: #333;
-    height: 25em;
+    height: 22em;
     line-height: 5px;
     /* Align the text vertically center. */
     font-size: 0.5em;
@@ -678,14 +678,14 @@ h6 {
 }
 
 #boxoffice {
-    width: 33em;
+    width: 30em;
     height: auto;
     border-radius: 5px;
     padding: 15px;
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
-    margin-left: 3em;
+    margin-left: 0em;
     margin-bottom: 2em;
 }
 
@@ -696,7 +696,7 @@ h6 {
     padding: 1px;
     border: solid green 2px;
     float: left;
-    margin-left: 3em;
+    margin-left: 0em;
     background: #f9f1d9;
     margin-bottom: 2em;
 }
@@ -707,21 +707,21 @@ h6 {
     padding: 1px;
     border: solid green 2px;
     float: left;
-    margin-left: 3em;
+    margin-left: 0em;
     background: #f9f1d9;
     margin-bottom: 2em;
 
 }
 
 #leadership {
-    width: 33em;
+    width: 30em;
     height: auto;
     border-radius: 5px;
     padding: 15px;
     border: solid green 2px;
     float: left;
     background: #f9f1d9;
-    margin-left: 3em;
+    margin-left: 0em;
     margin-bottom: 2em;
 
 }
