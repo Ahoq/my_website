@@ -57,7 +57,7 @@ MIDDLEWARE_CLASSES = [
 #EMAIL_HOST_USER = 'apikey'
 #EMAIL_HOST_USER = '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'
 #EMAIL_HOST_PASSWORD = 'Tuikalo12!'
-#EMAIL_PORT = 587
+#EMAIL_PORT = 465
 #DEFAULT_FROM_EMAIL = 'prithynosheensoitan@gmail.com'
 
 #EMAIL_HOST = 'smtp.sendgrid.net'
@@ -69,7 +69,7 @@ MIDDLEWARE_CLASSES = [
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_HOST_USER = "prithynosheensoitan@gmail.com"
 EMAIL_HOST_PASSWORD = 'ulsmbblyjllbuoaz'
-EMAIL_PORT = 587
+EMAIL_PORT = 465
 EMAIL_USE_TLS = True
 
 
