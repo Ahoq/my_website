@@ -14,7 +14,7 @@ def email(request):
             subject = form.cleaned_data['subject']
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
-            send_mail(subject, message, from_email, ['ahoqabir@gmail.com'])
+            send_mail(subject, message, from_email, ['prithynosheensoitan@gmail.com '])
             #try:
                 #send_mail(subject, message, from_email, ['ahoqabir@gmail.com'])
                 #send_mail(subject, from_email, from_email, ['ahoqabir@gmail.com'])
