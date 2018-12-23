@@ -57,7 +57,7 @@ EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'prithy'
 EMAIL_HOST_PASSWORD = 'Tuikalo12!'
 EMAIL_PORT = 587
-
+DEFAULT_FROM_EMAIL = 'prithynosheensoitan@gmail.com'
 
 
 
