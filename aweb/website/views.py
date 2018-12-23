@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
 from website.forms import ContactForm
+from django.core.mail import EmailMessage
 
 
 def email(request):
@@ -14,12 +15,13 @@ def email(request):
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
             try:
-                send_mail(subject, message, from_email, ['ahoqabir@gmail.com'])
-                send_mail(subject, from_email, from_email, ['ahoqabir@gmail.com'])
+		email = EmailMessage(subject, message, from_email, to=['ahoqabir@gmail.com'])
+		email.send()
+                #send_mail(subject, message, from_email, ['ahoqabir@gmail.com'])
+                #send_mail(subject, from_email, from_email, ['ahoqabir@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('thanks')
-            return redirect('website-email')
     return render(request, "website/email.html/", {'form': form})
 
 def thanks(request):
