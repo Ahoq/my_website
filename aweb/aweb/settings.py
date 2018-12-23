@@ -52,13 +52,19 @@ MIDDLEWARE_CLASSES = [
 ]
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#EMAIL_HOST = 'smtp.sendgrid.net'
+#EMAIL_HOST_USER = 'apikey'
+#EMAIL_HOST_USER = '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'
+#EMAIL_HOST_PASSWORD = 'Tuikalo12!'
+#EMAIL_PORT = 587
+#DEFAULT_FROM_EMAIL = 'prithynosheensoitan@gmail.com'
+
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_USER = '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'
+EMAIL_HOST_USER = 'prithy'
 EMAIL_HOST_PASSWORD = 'Tuikalo12!'
 EMAIL_PORT = 587
-DEFAULT_FROM_EMAIL = 'prithynosheensoitan@gmail.com'
+EMAIL_USE_TLS = True
 
 
 
