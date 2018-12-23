@@ -210,7 +210,7 @@ body {
     margin-left: 0px;
     padding-left: 0px;
     height: 5em;
-    top: 11em;
+    top: 10em;
     padding: .5em 2em;
     line-height: 2em;
     background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
@@ -478,7 +478,7 @@ html,body{
 
 }
 .carousel {
-    margin-top: 2em;
+    margin-top: 12em;
     margin-right: 2em;
     margin-left: 2em;
     margin-bottom: 0em;
@@ -521,7 +521,11 @@ html,body{
 #header {
 
     background-image: url(/static/website/gif2.gif);
-    
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
     font-family: 'Shift', sans-serif;
     background-position: center;
     background-size: cover;
@@ -567,7 +571,12 @@ html,body{
 .header {
     width: auto;
     height: 3.5em;
-    
+    top:7em;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
     line-height: 1.5em;
     background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
     color: #933;
