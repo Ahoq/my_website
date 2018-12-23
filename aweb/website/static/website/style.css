@@ -756,7 +756,7 @@ body {
 .item {
     color: #666;
     background: #333;
-    height: 25em;
+    height: 30em;
     line-height: 5px;
     /* Align the text vertically center. */
     font-size: 0.5em;
