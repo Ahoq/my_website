@@ -15,14 +15,16 @@ def email(request):
             message = form.cleaned_data['message']
             try:
                 send_mail(subject, message, from_email, ['ahoqabir@gmail.com'])
+                send_mail(subject, from_email, from_email, ['ahoqabir@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('thanks')
+            return redirect('website-email')
     return render(request, "website/email.html/", {'form': form})
 
 def thanks(request):
 
-    return HttpResponse(request,'website/index.html')
+    return HttpResponse('Thank you for contacting me! Enjoy the rest of your day!!')
 
 def home(request):
 
@@ -31,6 +33,11 @@ def home(request):
 def about(request):
 
 	return render(request, 'website/about.html')
+
+def mail(request):
+
+    return render(request, 'website/mail.html')
+
 
 
 

@@ -61,37 +61,18 @@
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
-<center>
-<a href="https://github.com/Ahoq" target="_blank">
-<i class="fa fa-github" style="font-size:48px;color: #000000;"></i>
-</a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/adnan-hoq" target="_blank">
-<i class="fa fa-linkedin-square" style="font-size:48px;color:#0077B5; "></i>
-</a>&nbsp;&nbsp;
-<a href="https://www.facebook.com/adnanbinhaque" target="_blank">
-<i class="fa fa-facebook-square" style="font-size:48px;color:#29487d;"></i>
-</a>&nbsp;&nbsp;
-</center>
-    <form method="post" align="center">
-                {% csrf_token %}
-                
-                <br> <h6>Name:</h6>&nbsp; {{ form.name }}<br>
-
-                <br> <h6>Email:</h6>&nbsp; {{ form.from_email }}<br>
-               
-
-                <br><h6>Subject:</h6>&nbsp;{{ form.subject }}&nbsp;<br>
-                
-                <br><h6>Message:</h6>&nbsp;
-                {{ form.message }}<br><br>
-        <div class="form-actions">
-          <button type="submit"><h6>Send</h6></button><br><br>
-        </div>
-    </form>
-
-
-
-
+	{% csrf_token %}
+    <center>
+    	<h2>
+    		Thanks for Your Message! Enjoy the Rest of Your Day!!
+    	</h2>
+    
+    <button type="submit">
+    	<a href="/" class="btn btn-default">
+    	<h6>Go Back to Home</h6>
+    	</a>
+    </button><br><br>
+    </center>
 
  </body>
 </html>

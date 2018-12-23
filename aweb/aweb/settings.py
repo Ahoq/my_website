@@ -51,6 +51,15 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT=587
+EMAIL_HOST_USER = 'prithynosheensoitan@gmail.com'
+EMAIL_HOST_PASSWORD = 'prithynosheen69'
+EMAIL_USE_TLS = True
+
+
 ROOT_URLCONF = 'aweb.urls'
 
 TEMPLATES = [
