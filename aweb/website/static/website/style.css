@@ -16,7 +16,7 @@ body {
     width: 125em;
 
     height: auto;
-    background: -webkit-linear-gradient(top, #eaf9d4 30%,#c0e589 50%,#c6e29c 70%, #a9ce71 100%);
+    background: #fff;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
@@ -51,7 +51,7 @@ body {
     margin-right: 2em;
     margin-left: 2em;
     margin-bottom: 0em;
-    border: 2px solid green;
+    border: 0px solid green;
     
 }
 .carousel-control {
@@ -145,7 +145,7 @@ body {
 
 #header {
 
-    background-image: url(/static/website/gif2.gif);
+    background-image: url(https://media.giphy.com/media/uV5Py5wWTj7nHB19Ga/giphy.gif);
     
     font-family: 'Shift', sans-serif;
     background-position: center;
@@ -167,7 +167,7 @@ body {
     left: 0em;
     display: inline;
     margin-top: 0;
-    color: #fff;
+    color: #000000;
     float: right;
 
 }
@@ -177,7 +177,7 @@ body {
     position: relative;
     top: 3.1em;
     left: 13em;
-    color: #fff;
+    color: #000000;
     float: right;
 }    
 
@@ -211,18 +211,22 @@ body {
     padding-left: 0px;
     height: 5em;
     top: 10em;
-    padding: .5em 2em;
+    padding: 0em 1em;
     line-height: 2em;
-    background: -webkit-linear-gradient(top, #98c475 0%,#257742 100%);
+    background: #fff;
     color: #933;
     overflow: hidden;
     z-index: 12;
     font-family: 'Poppins', sans-serif;
     border-radius: 0em;
+    opacity: 1;
+    border-top: solid #857 1em;
+    border-bottom: solid grey 1px;
+
 }
 
 .header a:link, .header a:visited {
-    color: #eddfb6;
+    color: #000000;
 }
 
 .header a:focus , .header a:hover {
@@ -248,7 +252,7 @@ h1 {
 h2 {
     font-size: 2.2em;
     margin: 0.5em 1em .6em 0em;
-    color: #933;
+    color: #857;
 }
 
 h2.centered {
@@ -262,7 +266,7 @@ h2.subhead {
 h3 {
     font-size: 1.8em;
     margin: .6em 1.0em .8em 0em;
-    color: #857;
+    color: #285d91;
     font-weight: bold;
 }
 
@@ -306,6 +310,7 @@ h6 {
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 0.6;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
@@ -315,10 +320,10 @@ h6 {
 .header a.logo{
   float: left;
   padding-top: 1.0em;
-  padding-left:1em;
+  padding-left:0.5em;
   margin: 0 0 0 1em;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.2em;
   letter-spacing: .1em;
   text-transform: uppercase;
   text-align: right;
@@ -334,10 +339,10 @@ h6 {
 
 }
 .thumbnail{
-  background-color: #2f8735;
+  background-color: #eee;
 }
 .thumbnail h3{
-  color: #eddfb6;
+  color: #000000;
   text-align: center;
   padding-top: .5em;
 }
@@ -366,10 +371,10 @@ h6 {
     width: 35em;
     height: auto;
     border-radius: 5px;
-    padding: 15px;
-    border: solid green 2px;
+    padding: 10px;
+    border: solid green 0px;
     float: left;
-    background: #f9f1d9;
+    background: #eee;
     margin-left: 2.6em;
     margin-bottom: 2em;
 }
@@ -377,22 +382,22 @@ h6 {
     width: 22em;
     height: auto;
     border-radius: 5px;
-    padding: 1px;
-    border: solid green 2px;
+    padding: 10px;
+    border: solid green 0px;
     float: left;
     margin-left: 2em;
-    background: #f9f1d9;
+    background: #eee;
     margin-bottom: 2em;
 }
 #honors{
     width: 22em;
     height: auto;
     border-radius: 5px;
-    padding: 1px;
-    border: solid green 2px;
+    padding: 10px;
+    border: solid green 0px;
     float: left;
     margin-left: 2em;
-    background: #f9f1d9;
+    background: #eee;
     margin-bottom: 2em;
 
 }
@@ -401,10 +406,10 @@ h6 {
     width: 35em;
     height: auto;
     border-radius: 5px;
-    padding: 15px;
-    border: solid green 2px;
+    padding: 10px;
+    border: solid green 0px;
     float: left;
-    background: #f9f1d9;
+    background: #eee;
     margin-left: 2em;
     margin-bottom: 2em;
 
