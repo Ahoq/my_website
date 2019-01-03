@@ -367,6 +367,10 @@ h6 {
     position: relative;
 }
 
+hr{
+    border-color: #b4b6ba;
+}
+
 #boxoffice {
     width: 35em;
     height: auto;
